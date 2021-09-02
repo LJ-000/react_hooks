@@ -1,10 +1,12 @@
 import React from 'react'
 
 const style = {
-    background: 'lightgreen',
-    border: '2px solid green',
-    fontDize: '50px',
+    background: 'lightblue',
+    border: '2px solid white',
+    fontSize: '75px',
     fontWeight: '700',
+    color: '#4D6668'
+
 }
 
 const Square = ({value, onClick}) => (
