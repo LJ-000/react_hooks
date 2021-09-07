@@ -47,9 +47,10 @@ const Game = () => {
         <>
         <div className="game_board">
         <Board squares={history[stepNumber]} onClick={handleClick} />
-        <div style={style}>
+        <div className="game_stats" style={style}>
+            <br/>
             <div className="up_next">{winner ? 'Winner: ' + winner : 'Next Player: ' + (xNext ? 'X' : 'O')}</div>
-            <div>{nextMove()}</div>
+            {/* <div>{nextMove()}</div> */}
         </div>
         </div>
         </>

@@ -5,7 +5,7 @@ const style = {
     border: '6px solid #6c8283',
     borderRadius: '10px',
     width: '400px',
-    height: '400px',
+    height: '380px',
     margin: '0 auto',
     display: 'grid',
     gridTemplate: 'repeat(3, 1fr) / repeat(3, 1fr)'

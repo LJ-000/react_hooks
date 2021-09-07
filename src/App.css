@@ -1,22 +1,33 @@
 .app{
   text-align: center;
   background-image: url("https://wallpaperaccess.com/full/458246.jpg");
-  height: 100vh;
+  height: 120vh;
   width: 130%;
   margin-left: -350px;
 }
 
-.up_next{
- font-size: calc(10px + 2vmin);
- font-family: Arial, Helvetica, sans-serif;
- color: white;
-
-}
-
 .game_board{
-  margin-top: 90px;
-  margin-left: -250px;
+  margin-top: 60px;
+  margin-left: -350px;
 }
+
+.game_stats{
+  border: 6px solid #D9C8A6;
+  background-color: #e0d5be;
+  border-radius: 10px;
+  padding-bottom: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.up_next{
+  font-size: calc(10px + 2vmin);
+  font-family: Arial, Helvetica, sans-serif;
+  color: #A7B288;
+  width: auto;
+  height: 5px;
+  margin-top: 20px;
+ }
 
 /* NAVBAR  */
 
@@ -29,27 +40,27 @@
   font-size: 1.2rem;
   position: sticky;
   top: 0;
-  z-index: 20;
 }
 
 .nav-container {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-left: 70px;
   width: 100%;
   height: 80px;
   max-width: 1500px;
 }
 
 .nav-logo {
-  color: #e6d5b9;
+  color: #f1eac2;
   align-items: center;
   margin-left: 35px;
   margin-top: 5px;
   cursor: pointer;
   text-decoration: none;
   font-size: 3rem;
-  font-family: Satisfy;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   flex-grow: 1;
 }
 
@@ -66,9 +77,6 @@
   padding: 0.5rem 1rem;
   height: 100%;
   border-bottom: 3px solid transparent;
-}
-.fa-code {
-  margin-left: 1rem;
 }
 
 .nav-item {
@@ -91,8 +99,8 @@
 }
 
 .nav-item .active {
-  color: #ffdd40;
-  border: 1px solid #ffdd40;
+  color:white;
+  border: 1px solid #ADD8E6;
 }
 
 @media screen and (max-width: 960px) {
@@ -130,7 +138,7 @@
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
-    color: #ffdd40;
+    color: #ADD8E6;
   }
 }
 
